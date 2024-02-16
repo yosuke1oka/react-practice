@@ -22,7 +22,7 @@ export default function Page() {
       ">
         <div className="w-full">
           <h2 className="mb-3 text-blue-600 text-2xl font-bold">
-            濱口 宝（はまぐち ちかり）
+            岡 興輔
           </h2>
           {labName}
           <p>
