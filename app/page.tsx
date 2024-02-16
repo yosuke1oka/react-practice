@@ -1,5 +1,6 @@
 import Map from "./map";
 import Umilog from "./umilog";
+import Comment from "./comment";
 export default function Page() {
   const labName = "中古賀研究室";
 
@@ -20,6 +21,9 @@ export default function Page() {
         p-5 my-10 w-full flex flex-row gap-5
         border-4 border-gray-200 rounded-xl
       ">
+
+      <Comment />
+      
         <div className="w-full">
           <h2 className="mb-3 text-blue-600 text-2xl font-bold">
             岡 興輔
