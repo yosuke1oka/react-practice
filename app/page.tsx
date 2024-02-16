@@ -1,6 +1,8 @@
 import Map from "./map";
 import Umilog from "./umilog";
 import Comment from "./comment";
+import Register from "./register";
+
 export default function Page() {
   const labName = "中古賀研究室";
 
@@ -55,7 +57,7 @@ export default function Page() {
   </div>
   <Umilog />
 </div>
-
+<Register />
     </div>
   );
 }
